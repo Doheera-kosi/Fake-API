@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Farro:wght@300;400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@300;400;700;900&family=Lobster+Two:wght@400;700&family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Satisfy&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Roboto', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: 'Lobster', sans-serif;
+}
+
+.card {
+  width: 23%;
+  box-shadow: 0 0 4px 3px rgb(167, 154, 224);
+  text-align: center;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+.images {
+  width: 80%;
+}
+
+.desc {
+  font-size: 0.8rem;
+}
+
+.title {
+  font-size: 1.3rem;
+}
+
+.category,
+.rate,
+.price {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 1em;
+  font-size: 1.2em;
+}
